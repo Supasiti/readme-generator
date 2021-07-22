@@ -3,7 +3,6 @@ const readmeString = require('./src/readme-generator.js');
 const { writeToFile } = require('./src/file-writer.js');
 const { availiableLicenses } = require('./src/license-renderer');
 
-console.log(availiableLicenses);
 //  array of questions for user input
 const questions = [
   {
