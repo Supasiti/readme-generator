@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command line app that generates a readme file based on user inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supasiti/readme-generator.git"
+  },
+  "author": "Thara Supasiti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Supasiti/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Supasiti/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}

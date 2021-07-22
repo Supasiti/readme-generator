@@ -1,4 +1,4 @@
-# readme-generator
+# ${title}
 
 ## <h2 id="description"> Description </h2>
 
