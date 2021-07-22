@@ -1,4 +1,4 @@
-const licenseData = [
+const availiableLicenses = [
   {
     name: 'Apache 2.0',
     shield : 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
@@ -40,9 +40,9 @@ const licenseData = [
 // returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const createBadge = (licenseName) =>  {
-  const licenses = licenseData.map(data => data.name);
+  const licenses = availiableLicenses.map(data => data.name);
   if (licenses.includes(licenseName)) {
-    const {shield, link, text} = licenseData.filter(data => data.name === licenseName)[0];
+    const {shield, link, text} = availiableLicenses.filter(data => data.name === licenseName)[0];
     return `[![${text}](${shield})](${link})`;
   }
   return '';
@@ -51,9 +51,9 @@ const createBadge = (licenseName) =>  {
 // returns the license link
 // If there is no license, return an empty string
 const createLink = (licenseName) => {
-  const licenses = licenseData.map( data => data.name);
+  const licenses = availiableLicenses.map( data => data.name);
   if (licenses.includes(licenseName)) {
-    const {link} = licenseData.filter(data => data.name === licenseName)[0];
+    const {link} = availiableLicenses.filter(data => data.name === licenseName)[0];
     return link;
   }
   return '';
@@ -62,15 +62,16 @@ const createLink = (licenseName) => {
 // returns the license section of README
 // If there is no license, return an empty string
 const createSection = (licenseName) => {
-  const licenses = licenseData.map( data => data.name);
+  const licenses = availiableLicenses.map( data => data.name);
   if (licenses.includes(licenseName)) {
-    const {name,link} = licenseData.filter(data => data.name === licenseName)[0];
-    return `[${name}](${link})`
+    const {name,link} = availiableLicenses.filter(data => data.name === licenseName)[0];
+    return `Licensed under the [${name}](${link}) license.`
   }
   return '';
 };
 
 module.exports = {
+  availiableLicenses,
   createBadge,
   createLink,
   createSection
