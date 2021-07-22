@@ -1,12 +1,12 @@
 const badge = require('./license-renderer');
 
 // a function to generate markdown for README
-const generateMarkdown = ({
-  title, description, installation, usage, license, contribution, tests, email, github,
+const generate = ({
+  title, description, installation, usage, license, contribution, tests, email, github
 }) => {
   return `
     # ${title}
-    ${badge.renderLicenseBadge(license)}
+    ${badge.createBadge(license)}
 
     ## <h2 id="description"> Description </h2>
     
@@ -44,7 +44,7 @@ const generateMarkdown = ({
     ## <h2 id="license"> License </h2>
     [(Back to top)](#table-of-content)
     
-    ${badge.renderLicenseSection(license)}
+    ${badge.createSection(license)}
 
     ## <h2 id="questions"> Questions </h2>
     [(Back to top)](#table-of-content)
@@ -55,5 +55,5 @@ const generateMarkdown = ({
 };
 
 module.exports = {
-  generateMarkdown
+  generate
 }

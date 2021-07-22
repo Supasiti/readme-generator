@@ -39,7 +39,7 @@ const licenseData = [
 
 // returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const renderLicenseBadge = (licenseName) =>  {
+const createBadge = (licenseName) =>  {
   const licenses = licenseData.map(data => data.name);
   if (licenses.includes(licenseName)) {
     const {shield, link, text} = licenseData.filter(data => data.name === licenseName)[0];
@@ -50,7 +50,7 @@ const renderLicenseBadge = (licenseName) =>  {
 
 // returns the license link
 // If there is no license, return an empty string
-const renderLicenseLink = (licenseName) => {
+const createLink = (licenseName) => {
   const licenses = licenseData.map( data => data.name);
   if (licenses.includes(licenseName)) {
     const {link} = licenseData.filter(data => data.name === licenseName)[0];
@@ -61,7 +61,7 @@ const renderLicenseLink = (licenseName) => {
 
 // returns the license section of README
 // If there is no license, return an empty string
-const renderLicenseSection = (licenseName) => {
+const createSection = (licenseName) => {
   const licenses = licenseData.map( data => data.name);
   if (licenses.includes(licenseName)) {
     const {name,link} = licenseData.filter(data => data.name === licenseName)[0];
@@ -71,7 +71,7 @@ const renderLicenseSection = (licenseName) => {
 };
 
 module.exports = {
-  renderLicenseBadge,
-  renderLicenseLink,
-  renderLicenseSection
+  createBadge,
+  createLink,
+  createSection
 };
