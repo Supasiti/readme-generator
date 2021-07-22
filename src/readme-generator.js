@@ -1,11 +1,17 @@
-const createReadMeString = ({
-  title 
+const badge = require('./license-renderer');
+
+// a function to generate markdown for README
+const generateMarkdown = ({
+  title, description, installation, usage, license, contribution, tests, email, github,
 }) => {
   return `
     # ${title}
+    ${badge.renderLicenseBadge(license)}
 
     ## <h2 id="description"> Description </h2>
     
+    ${description}
+
     ## <h2 id="table-of-contents"> Table of Contents </h2>
     
     - [Description](#description)
@@ -18,25 +24,36 @@ const createReadMeString = ({
     ## <h2 id="installation"> Installation </h2>
     [(Back to top)](#table-of-content)
     
+    ${installation}
     
     ## <h2 id="usage"> Usage </h2>
     [(Back to top)](#table-of-content)
     
+    ${usage}
+
     ## <h2 id="contribution"> Contribution Guidelines </h2>
     [(Back to top)](#table-of-content)
     
+    ${contribution}
     
     ## <h2 id="tests"> Tests </h2>
     [(Back to top)](#table-of-content)
     
+    ${tests}
+
     ## <h2 id="license"> License </h2>
     [(Back to top)](#table-of-content)
     
+    ${badge.renderLicenseSection(license)}
+
     ## <h2 id="questions"> Questions </h2>
     [(Back to top)](#table-of-content)
+
+    Here is the [link](https://www.github.com/${github}) to my GitHub profile. If you have 
+    any question, you can contact me via this [email](mailto:${email}).
     `
 };
 
 module.exports = {
-  createReadMeString
+  generateMarkdown
 }
