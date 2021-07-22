@@ -1,24 +1,32 @@
 # readme-generator
 
-## Description {#description}
+## <h2 id="description"> Description </h2>
 
-
-## Table of Contents {#table-of-contents}
+## <h2 id="table-of-contents"> Table of Contents </h2>
 
 - [Description](#description)
 - [Installation](#installation)
-- [Preview](#)
 - [Usage](#usage)
-- [Installation](#installation)
-- [Credits](#credits)
+- [Contribution Guidelines](#contribution)
+- [Tests](#tests)
 - [License](#license)
 
-## Installation {#installation}
+## <h2 id="installation"> Installation </h2>
+[(Back to top)](#table-of-content)
 
-## Usage {#usage} 
 
-## Contribution Guideline {#contribution}
+## <h2 id="usage"> Usage </h2>
+[(Back to top)](#table-of-content)
 
-## <h2 id="test">Tests</h2>
+## <h2 id="contribution"> Contribution Guidelines </h2>
+[(Back to top)](#table-of-content)
 
-## <h2 id="license">License</h2>
+
+## <h2 id="tests"> Tests </h2>
+[(Back to top)](#table-of-content)
+
+## <h2 id="license"> License </h2>
+[(Back to top)](#table-of-content)
+
+## <h2 id="questions"> Questions </h2>
+[(Back to top)](#table-of-content)
