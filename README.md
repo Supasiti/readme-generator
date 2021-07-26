@@ -27,14 +27,7 @@ Table of Contents, Installation, Usage, Contributing, Tests, License and Questio
 
 The end product should resemble the mock-up provided below:
 
-![walkthrough](./demo/demo.gif)
-
-[![walkthrough](./demo/screenshot.png)](https://youtu.be/HIqxDzmgFdE)
-
-<figure class="video_container">
-<iframe src="https://youtu.be/HIqxDzmgFdE" frameborder="0" allowfullscreen="true" style="width:100%; height:300px;"></iframe>
-</figure>
-
+[![walkthrough](./demo/demo.gif)](https://youtu.be/HIqxDzmgFdE)
 
 
 ## <h2 id="table-of-contents"> Table of Contents </h2>
