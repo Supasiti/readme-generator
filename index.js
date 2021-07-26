@@ -3,7 +3,7 @@ const readmeString = require('./src/readme-generator.js');
 const { writeToFile } = require('./src/file-writer.js');
 const { availiableLicenses } = require('./src/license-renderer');
 
-//  array of questions for user input
+// array of questions for user input
 const questions = [
   {
     type : 'input',
@@ -56,10 +56,10 @@ const questions = [
 // generate README file given the answer
 const generateReadme = (answer) => {  
   const content = readmeString.generate(answer);
-  writeToFile('./TEST-README.md', content);
+  writeToFile('./outputs/README.md', content);
 }
 
-// TODO: Create a function to initialize app
+// a function to initialize app
 function init() {
   console.log('Welcome to Thara\'s README generator!\n');
   inquirer
