@@ -4,6 +4,13 @@
 ![node-current](https://img.shields.io/node/v/inquirer)
 ![npm](https://img.shields.io/npm/v/jest)
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-944058?style=for-the-badge&logo=jest&logoColor=white)
+
+
 
 ## <h2 id="description"> Description </h2>
 
@@ -20,7 +27,7 @@ Table of Contents, Installation, Usage, Contributing, Tests, License and Questio
 
 The end product should resemble the mock-up provided below:
 
-![readme generator demo](./assets/demo/demo.mp4)
+[![walkthrough](./demo/demo.gif)](https://youtu.be/HIqxDzmgFdE)
 
 
 ## <h2 id="table-of-contents"> Table of Contents </h2>
