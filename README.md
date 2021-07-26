@@ -5,8 +5,6 @@
 ![npm](https://img.shields.io/npm/v/jest)
 
 
----
-
 ## <h2 id="description"> Description </h2>
 
 A command line app that generates a README file based on user inputs. A user will be prompted
@@ -25,8 +23,6 @@ The end product should resemble the mock-up provided below:
 ![readme generator demo](./assets/demo/demo.mp4)
 
 
----
-
 ## <h2 id="table-of-contents"> Table of Contents </h2>
 
 - [Description](#description)
@@ -36,7 +32,6 @@ The end product should resemble the mock-up provided below:
 - [Tests](#tests)
 - [License](#license)
 
----
 
 ## <h2 id="installation"> Installation </h2>
 [(Back to top)](#table-of-content)
@@ -50,7 +45,6 @@ Then install all the required libraries by running the follow command
 
     npm i 
 
----
 
 ## <h2 id="usage"> Usage </h2>
 [(Back to top)](#table-of-content)
@@ -61,7 +55,6 @@ To use this code, run
 
 and follow all the prompts. The output file will be located in `/output/` folder.
 
----
 
 ## <h2 id="tests"> Tests </h2>
 [(Back to top)](#table-of-content)
@@ -73,7 +66,7 @@ This project uses [Jest](https://jestjs.io) testing framework. This can be set u
 Once the framework is downloaded, To test, run
 
     npm run test
----
+
 
 ## <h2 id="license"> License </h2>
 [(Back to top)](#table-of-content)
