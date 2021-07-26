@@ -20,11 +20,11 @@ Table of Contents, Installation, Usage, Contributing, Tests, License and Questio
 
 The end product should resemble the mock-up provided below:
 
+
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./assets/demo/screenshot.png">
-    <source src="./assets/demo/demo.mp4" type="video/mp4">
-  </video>
+  <iframe src="https://youtu.be/HIqxDzmgFdE" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+
 
 
 ## <h2 id="table-of-contents"> Table of Contents </h2>
