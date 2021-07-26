@@ -22,7 +22,7 @@ Table of Contents, Installation, Usage, Contributing, Tests, License and Questio
 
 The end product should resemble the mock-up provided below:
 
-![readme generator demo](./assets/demo/)
+![readme generator demo](./assets/demo/demo.mp4)
 
 
 ---
@@ -55,33 +55,27 @@ Then install all the required libraries by running the follow command
 ## <h2 id="usage"> Usage </h2>
 [(Back to top)](#table-of-content)
 
-just use it
+To use this code, run
 
----
+    node index.js
 
-## <h2 id="contribution"> Contributing </h2>
-[(Back to top)](#table-of-content)
-
-you can't
+and follow all the prompts. The output file will be located in `/output/` folder.
 
 ---
 
 ## <h2 id="tests"> Tests </h2>
 [(Back to top)](#table-of-content)
 
-no need to test
+This project uses [Jest](https://jestjs.io) testing framework. This can be set up by running the following command:
 
+    npm i --save-dev
+
+Once the framework is downloaded, To test, run
+
+    npm run test
 ---
 
 ## <h2 id="license"> License </h2>
 [(Back to top)](#table-of-content)
 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
-
----
-
-## <h2 id="questions"> Questions </h2>
-[(Back to top)](#table-of-content)
-
-Here is the [link](https://www.github.com/helloworld) to my GitHub profile. If you have 
-any question, you can contact me via this [email](mailto:hello@world.com).
