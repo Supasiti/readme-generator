@@ -20,7 +20,11 @@ Table of Contents, Installation, Usage, Contributing, Tests, License and Questio
 
 The end product should resemble the mock-up provided below:
 
-![readme generator demo](./assets/demo/demo.mp4)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./assets/demo/screenshot.png">
+    <source src="./assets/demo/demo.mp4" type="video/mp4">
+  </video>
+</figure>
 
 
 ## <h2 id="table-of-contents"> Table of Contents </h2>
